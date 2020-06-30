@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(testAnaForm));
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
@@ -95,6 +96,7 @@
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.kapatBtn = new DevExpress.XtraEditors.SimpleButton();
+            this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.testTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
             this.xtraTabControl2.SuspendLayout();
@@ -125,7 +127,7 @@
             this.testTabPage.Controls.Add(this.navBarControl2);
             this.testTabPage.ImageOptions.Image = global::TestingPrograms.Properties.Resources.piestyledonut_32x32;
             this.testTabPage.Name = "testTabPage";
-            this.testTabPage.Size = new System.Drawing.Size(1235, 541);
+            this.testTabPage.Size = new System.Drawing.Size(1278, 606);
             this.testTabPage.Text = "Test Bilgileri";
             // 
             // xtraTabControl2
@@ -166,7 +168,7 @@
             this.xtraTabControl2.Location = new System.Drawing.Point(266, 0);
             this.xtraTabControl2.Name = "xtraTabControl2";
             this.xtraTabControl2.SelectedTabPage = this.anaSayfaTabPage2;
-            this.xtraTabControl2.Size = new System.Drawing.Size(969, 541);
+            this.xtraTabControl2.Size = new System.Drawing.Size(1012, 606);
             this.xtraTabControl2.TabIndex = 2;
             this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.anaSayfaTabPage2,
@@ -201,66 +203,66 @@
             this.anaSayfaTabPage2.ImageOptions.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
             this.anaSayfaTabPage2.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.next;
             this.anaSayfaTabPage2.Name = "anaSayfaTabPage2";
-            this.anaSayfaTabPage2.Size = new System.Drawing.Size(967, 497);
+            this.anaSayfaTabPage2.Size = new System.Drawing.Size(1010, 562);
             // 
             // buzDisiTabPage
             // 
             this.buzDisiTabPage.Name = "buzDisiTabPage";
-            this.buzDisiTabPage.Size = new System.Drawing.Size(967, 497);
+            this.buzDisiTabPage.Size = new System.Drawing.Size(1010, 562);
             this.buzDisiTabPage.Text = "Buz Dışı Test";
             // 
             // oksijensizTabPage
             // 
             this.oksijensizTabPage.Name = "oksijensizTabPage";
-            this.oksijensizTabPage.Size = new System.Drawing.Size(967, 497);
+            this.oksijensizTabPage.Size = new System.Drawing.Size(1010, 562);
             this.oksijensizTabPage.Text = "Anaerobik / Oksijensiz";
             // 
             // oksijenliTabPage
             // 
             this.oksijenliTabPage.Name = "oksijenliTabPage";
-            this.oksijenliTabPage.Size = new System.Drawing.Size(967, 497);
+            this.oksijenliTabPage.Size = new System.Drawing.Size(1010, 562);
             this.oksijenliTabPage.Text = "Aerobik / Oksijenli";
             // 
             // kaleciBeceritestleriTabPage
             // 
             this.kaleciBeceritestleriTabPage.Name = "kaleciBeceritestleriTabPage";
-            this.kaleciBeceritestleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.kaleciBeceritestleriTabPage.Size = new System.Drawing.Size(1010, 562);
             this.kaleciBeceritestleriTabPage.Text = "Kaleci Beceri Testleri";
             // 
             // sutHiziTestleriTabPage
             // 
             this.sutHiziTestleriTabPage.Name = "sutHiziTestleriTabPage";
-            this.sutHiziTestleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.sutHiziTestleriTabPage.Size = new System.Drawing.Size(1010, 562);
             this.sutHiziTestleriTabPage.Text = "Şut Hızı Testleri";
             // 
             // uzunlukOlcümleriTabPage
             // 
             this.uzunlukOlcümleriTabPage.Name = "uzunlukOlcümleriTabPage";
-            this.uzunlukOlcümleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.uzunlukOlcümleriTabPage.Size = new System.Drawing.Size(1010, 562);
             this.uzunlukOlcümleriTabPage.Text = "Uzunluk Ölçümleri";
             // 
             // cevreOlcumleriTabPage
             // 
             this.cevreOlcumleriTabPage.Name = "cevreOlcumleriTabPage";
-            this.cevreOlcumleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.cevreOlcumleriTabPage.Size = new System.Drawing.Size(1010, 562);
             this.cevreOlcumleriTabPage.Text = "Çevre Ölçümleri";
             // 
             // capOlcümleriTabPage
             // 
             this.capOlcümleriTabPage.Name = "capOlcümleriTabPage";
-            this.capOlcümleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.capOlcümleriTabPage.Size = new System.Drawing.Size(1010, 562);
             this.capOlcümleriTabPage.Text = "Çap Ölçümleri";
             // 
             // fonksiyonelOlcumlerTabPage
             // 
             this.fonksiyonelOlcumlerTabPage.Name = "fonksiyonelOlcumlerTabPage";
-            this.fonksiyonelOlcumlerTabPage.Size = new System.Drawing.Size(967, 497);
+            this.fonksiyonelOlcumlerTabPage.Size = new System.Drawing.Size(1010, 562);
             this.fonksiyonelOlcumlerTabPage.Text = "Fonksiyonel Ölçümler";
             // 
             // fizyoterapiTabPage
             // 
             this.fizyoterapiTabPage.Name = "fizyoterapiTabPage";
-            this.fizyoterapiTabPage.Size = new System.Drawing.Size(967, 497);
+            this.fizyoterapiTabPage.Size = new System.Drawing.Size(1010, 562);
             this.fizyoterapiTabPage.Text = "Fizyoterapi";
             // 
             // navBarControl2
@@ -343,7 +345,7 @@
             this.navBarControl2.Location = new System.Drawing.Point(0, 0);
             this.navBarControl2.Name = "navBarControl2";
             this.navBarControl2.OptionsNavPane.ExpandedWidth = 266;
-            this.navBarControl2.Size = new System.Drawing.Size(266, 541);
+            this.navBarControl2.Size = new System.Drawing.Size(266, 606);
             this.navBarControl2.TabIndex = 1;
             this.navBarControl2.Text = "navBarControl2";
             this.navBarControl2.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinNavigationPaneViewInfoRegistrator("Metropolis Dark");
@@ -539,7 +541,7 @@
             this.sporcuTabPage.Controls.Add(this.navBarControl1);
             this.sporcuTabPage.ImageOptions.Image = global::TestingPrograms.Properties.Resources.employee_32x32;
             this.sporcuTabPage.Name = "sporcuTabPage";
-            this.sporcuTabPage.Size = new System.Drawing.Size(1235, 541);
+            this.sporcuTabPage.Size = new System.Drawing.Size(1278, 606);
             this.sporcuTabPage.Text = "Sporcu Bilgileri";
             // 
             // xtraTabControl1
@@ -580,7 +582,7 @@
             this.xtraTabControl1.Location = new System.Drawing.Point(266, 0);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.anaSayfaTabPage;
-            this.xtraTabControl1.Size = new System.Drawing.Size(969, 541);
+            this.xtraTabControl1.Size = new System.Drawing.Size(1012, 606);
             this.xtraTabControl1.TabIndex = 1;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.anaSayfaTabPage,
@@ -608,7 +610,7 @@
             this.anaSayfaTabPage.ImageOptions.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
             this.anaSayfaTabPage.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.next;
             this.anaSayfaTabPage.Name = "anaSayfaTabPage";
-            this.anaSayfaTabPage.Size = new System.Drawing.Size(967, 497);
+            this.anaSayfaTabPage.Size = new System.Drawing.Size(1010, 562);
             // 
             // kisiselBilgilerTabPage
             // 
@@ -619,7 +621,7 @@
             this.kisiselBilgilerTabPage.Appearance.HeaderDisabled.BackColor = System.Drawing.Color.Lime;
             this.kisiselBilgilerTabPage.Appearance.HeaderDisabled.Options.UseBackColor = true;
             this.kisiselBilgilerTabPage.Name = "kisiselBilgilerTabPage";
-            this.kisiselBilgilerTabPage.Size = new System.Drawing.Size(967, 497);
+            this.kisiselBilgilerTabPage.Size = new System.Drawing.Size(1010, 562);
             this.kisiselBilgilerTabPage.Text = "Kişisel Bilgiler";
             // 
             // AntropometikXtraTabPage
@@ -627,7 +629,7 @@
             this.AntropometikXtraTabPage.Appearance.HeaderActive.BackColor = System.Drawing.Color.Black;
             this.AntropometikXtraTabPage.Appearance.HeaderActive.Options.UseBackColor = true;
             this.AntropometikXtraTabPage.Name = "AntropometikXtraTabPage";
-            this.AntropometikXtraTabPage.Size = new System.Drawing.Size(967, 497);
+            this.AntropometikXtraTabPage.Size = new System.Drawing.Size(1010, 562);
             this.AntropometikXtraTabPage.Text = "Antropometik Özellikler";
             // 
             // sporcuListesiXtraTabPage
@@ -635,7 +637,7 @@
             this.sporcuListesiXtraTabPage.Appearance.HeaderActive.BackColor = System.Drawing.Color.Black;
             this.sporcuListesiXtraTabPage.Appearance.HeaderActive.Options.UseBackColor = true;
             this.sporcuListesiXtraTabPage.Name = "sporcuListesiXtraTabPage";
-            this.sporcuListesiXtraTabPage.Size = new System.Drawing.Size(967, 497);
+            this.sporcuListesiXtraTabPage.Size = new System.Drawing.Size(1010, 562);
             this.sporcuListesiXtraTabPage.Text = "Sporcu Listesi";
             // 
             // navBarControl1
@@ -662,7 +664,7 @@
             this.navBarControl1.Location = new System.Drawing.Point(0, 0);
             this.navBarControl1.Name = "navBarControl1";
             this.navBarControl1.OptionsNavPane.ExpandedWidth = 266;
-            this.navBarControl1.Size = new System.Drawing.Size(266, 541);
+            this.navBarControl1.Size = new System.Drawing.Size(266, 606);
             this.navBarControl1.TabIndex = 0;
             this.navBarControl1.Text = "navBarControl1";
             this.navBarControl1.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinNavigationPaneViewInfoRegistrator("Metropolis Dark");
@@ -776,9 +778,6 @@
             // 
             // sporcubilgiTabPage
             // 
-            this.sporcubilgiTabPage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.sporcubilgiTabPage.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.sporcubilgiTabPage.Appearance.BorderColor = System.Drawing.Color.Black;
             this.sporcubilgiTabPage.Appearance.Options.UseBackColor = true;
@@ -834,12 +833,13 @@
             this.sporcubilgiTabPage.CustomHeaderButtons.AddRange(new DevExpress.XtraTab.Buttons.CustomHeaderButton[] {
             new DevExpress.XtraTab.Buttons.CustomHeaderButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Minus, "Min", -1, true, true, editorButtonImageOptions1, serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", "min", null),
             new DevExpress.XtraTab.Buttons.CustomHeaderButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Delete, "", -1, true, true, editorButtonImageOptions2, serializableAppearanceObject5, "", "del", null)});
+            this.sporcubilgiTabPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sporcubilgiTabPage.HeaderOrientation = DevExpress.XtraTab.TabOrientation.Horizontal;
             this.sporcubilgiTabPage.Location = new System.Drawing.Point(0, 0);
             this.sporcubilgiTabPage.MultiLine = DevExpress.Utils.DefaultBoolean.False;
             this.sporcubilgiTabPage.Name = "sporcubilgiTabPage";
             this.sporcubilgiTabPage.SelectedTabPage = this.sporcuTabPage;
-            this.sporcubilgiTabPage.Size = new System.Drawing.Size(1237, 585);
+            this.sporcubilgiTabPage.Size = new System.Drawing.Size(1280, 650);
             this.sporcubilgiTabPage.TabIndex = 0;
             this.sporcubilgiTabPage.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.sporcuTabPage,
@@ -930,24 +930,25 @@
             // 
             // testAnaForm
             // 
-            this.Appearance.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.Appearance.Options.UseBackColor = true;
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1237, 585);
+            this.ClientSize = new System.Drawing.Size(1280, 650);
             this.Controls.Add(this.sporcubilgiTabPage);
             this.Font = new System.Drawing.Font("Sitka Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IconOptions.SvgImage = global::TestingPrograms.Properties.Resources.charttype_bar3dstacked;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximumSize = new System.Drawing.Size(1280, 650);
+            this.MinimumSize = new System.Drawing.Size(1280, 650);
             this.Name = "testAnaForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "byNed";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.SizeChanged += new System.EventHandler(this.testAnaForm_Load);
             this.testTabPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).EndInit();
@@ -1024,6 +1025,7 @@
         private DevExpress.XtraNavBar.NavBarItem fonksiyonelOlcBarItem;
         private DevExpress.XtraNavBar.NavBarItem fizyoterapiBarItem;
         private DevExpress.XtraEditors.SimpleButton kapatBtn;
+        private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
     }
 }
 

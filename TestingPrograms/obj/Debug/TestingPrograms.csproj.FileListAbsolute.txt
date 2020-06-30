@@ -116,3 +116,11 @@ D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\obj\Debug
 D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\obj\Debug\TestingPrograms.csproj.CopyComplete
 D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\obj\Debug\TestingPrograms.exe
 D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\obj\Debug\TestingPrograms.pdb
+D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\bin\Debug\DevExpress.XtraLayout.v20.1.dll
+D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\repos\projects\microsoftVisualStudio\TestingProgram\TestingPrograms\bin\Debug\Bunifu_UI_v1.5.3.xml
