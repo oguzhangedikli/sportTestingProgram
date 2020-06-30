@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace TestingPrograms
 {
-    public partial class testAnaForm : DevExpress.XtraEditors.XtraForm
+    public partial class testAnaForm : XtraForm
     {
         public testAnaForm()
         {
@@ -37,16 +37,32 @@ namespace TestingPrograms
                 }
 
             }
+            foreach (XtraTabPage item in xtraTabControl2.TabPages)
+            {
+                if (item.Name != "anaSayfaTabPage2")
+                {
+                    item.PageVisible = false;
+                }
+
+            }
         }
 
         private void kisiselBar_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {FormGoster(kisiselBilgilerTabPage);}
 
         private void FormGoster(XtraTabPage ac)
-        {ac.PageVisible = true; xtraTabControl1.SelectedTabPage = ac;}
+        {
+            ac.PageVisible = true; xtraTabControl1.SelectedTabPage = ac;
+            ac.PageVisible = true; xtraTabControl2.SelectedTabPage = ac;
+        }
 
         private void xtraTabControl1_CustomHeaderButtonClick(object sender, DevExpress.XtraTab.ViewInfo.CustomHeaderButtonEventArgs e)
-        {if (xtraTabControl1.SelectedTabPage!=anaSayfaTabPage){xtraTabControl1.SelectedTabPage.PageVisible = false;}}
+        {
+            if (xtraTabControl1.SelectedTabPage!=anaSayfaTabPage)
+            {
+                xtraTabControl1.SelectedTabPage.PageVisible = false;
+            }
+        }
 
         private void antroBar_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {FormGoster(AntropometikXtraTabPage);}
@@ -54,5 +70,17 @@ namespace TestingPrograms
         private void sporcuListesiBar_LinkClicked(object sender, DevExpress.XtraNavBar.NavBarLinkEventArgs e)
         {FormGoster(sporcuListesiXtraTabPage);}
 
+        private void xtraTabControl2_CustomHeaderButtonClick(object sender, DevExpress.XtraTab.ViewInfo.CustomHeaderButtonEventArgs e)
+        {
+            if (xtraTabControl2.SelectedTabPage != anaSayfaTabPage2)
+            {
+                xtraTabControl2.SelectedTabPage.PageVisible = false;
+            }
+        }
+
+        private void buzDisiBar_ItemChanged(object sender, System.EventArgs e)
+        {
+            FormGoster(buzDisiTabPage);
+        }
     }
 }

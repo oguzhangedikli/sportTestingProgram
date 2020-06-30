@@ -119,6 +119,87 @@
   <ItemGroup>
     <None Include="Resources\showtestreport_16x16.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piepoints1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drilldownonseries_pie_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drilldownonseries_pie_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piestylepie_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piestylepie_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printcollated.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charttype_radarline.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charttype_polarpoint.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charttype_scatterline.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charttype_radarline1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_kpi_definition.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walking.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\walking1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\travel_walk.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_customer.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charttype_line.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datalabels.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removeitem_32x321.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
