@@ -77,10 +77,5 @@ namespace TestingPrograms
                 xtraTabControl2.SelectedTabPage.PageVisible = false;
             }
         }
-
-        private void buzDisiBar_ItemChanged(object sender, System.EventArgs e)
-        {
-            FormGoster(buzDisiTabPage);
-        }
     }
 }

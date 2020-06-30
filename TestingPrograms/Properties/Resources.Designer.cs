@@ -83,6 +83,16 @@ namespace TestingPrograms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
         /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage charttype_bar3dstacked {
+            get {
+                object obj = ResourceManager.GetObject("charttype_bar3dstacked", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
         internal static DevExpress.Utils.Svg.SvgImage charttype_line {
             get {
                 object obj = ResourceManager.GetObject("charttype_line", resourceCulture);
@@ -193,9 +203,29 @@ namespace TestingPrograms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap employee_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("employee_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap forcetesting_32x32 {
             get {
                 object obj = ResourceManager.GetObject("forcetesting_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap line_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("line_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -247,6 +277,16 @@ namespace TestingPrograms.Properties {
             get {
                 object obj = ResourceManager.GetObject("piepoints", resourceCulture);
                 return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap piestyledonut_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("piestyledonut_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -326,6 +366,16 @@ namespace TestingPrograms.Properties {
         internal static System.Drawing.Bitmap reset_32x32 {
             get {
                 object obj = ResourceManager.GetObject("reset_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scatter_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("scatter_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
