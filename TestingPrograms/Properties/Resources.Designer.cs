@@ -141,6 +141,16 @@ namespace TestingPrograms.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage clearheaderandfooter {
+            get {
+                object obj = ResourceManager.GetObject("clearheaderandfooter", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap contact_16x16 {
@@ -176,6 +186,16 @@ namespace TestingPrograms.Properties {
         internal static DevExpress.Utils.Svg.SvgImage datalabels {
             get {
                 object obj = ResourceManager.GetObject("datalabels", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage doublenext {
+            get {
+                object obj = ResourceManager.GetObject("doublenext", resourceCulture);
                 return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
@@ -236,6 +256,16 @@ namespace TestingPrograms.Properties {
         internal static DevExpress.Utils.Svg.SvgImage menu {
             get {
                 object obj = ResourceManager.GetObject("menu", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage next {
+            get {
+                object obj = ResourceManager.GetObject("next", resourceCulture);
                 return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }

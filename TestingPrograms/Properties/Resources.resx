@@ -130,6 +130,12 @@
   <data name="bo_kpi_definition" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_kpi_definition.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="doublenext" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doublenext.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="next" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\next.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
@@ -144,6 +150,9 @@
   </data>
   <data name="contact_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\contact_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="datalabels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datalabels.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="charttype_radarline" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\charttype_radarline.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -205,14 +214,14 @@
   <data name="walking_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\walking_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="datalabels" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\datalabels.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
   <data name="showtestreport_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\showtestreport_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="piestyledonut_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\piestyledonut_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charttype_bar3dstacked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charttype_bar3dstacked.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bo_customer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_customer.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -244,7 +253,7 @@
   <data name="drilldownonseries_pie_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\drilldownonseries_pie_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="charttype_bar3dstacked" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\charttype_bar3dstacked.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="clearheaderandfooter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearheaderandfooter.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
 </root>

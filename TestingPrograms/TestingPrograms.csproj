@@ -215,6 +215,15 @@
   <ItemGroup>
     <None Include="Resources\charttype_bar3dstacked.svg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublenext.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clearheaderandfooter.svg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

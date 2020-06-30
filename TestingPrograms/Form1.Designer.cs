@@ -37,7 +37,21 @@
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
             this.testTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
+            this.anaSayfaTabPage2 = new DevExpress.XtraTab.XtraTabPage();
+            this.buzDisiTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.oksijensizTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.oksijenliTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.kaleciBeceritestleriTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.sutHiziTestleriTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.uzunlukOlcümleriTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.cevreOlcumleriTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.capOlcümleriTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.fonksiyonelOlcumlerTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.fizyoterapiTabPage = new DevExpress.XtraTab.XtraTabPage();
             this.navBarControl2 = new DevExpress.XtraNavBar.NavBarControl();
+            this.buzDisiBar = new DevExpress.XtraNavBar.NavBarGroup();
+            this.buzDisiBarItem = new DevExpress.XtraNavBar.NavBarItem();
             this.buzIciBar = new DevExpress.XtraNavBar.NavBarGroup();
             this.oksijensizBarItem = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarSeparatorItem4 = new DevExpress.XtraNavBar.NavBarSeparatorItem();
@@ -46,7 +60,6 @@
             this.kaleciBeceriTestleriBarItem = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarSeparatorItem6 = new DevExpress.XtraNavBar.NavBarSeparatorItem();
             this.sutHiziTestleriBarItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.buzDisiBar = new DevExpress.XtraNavBar.NavBarGroup();
             this.antropometrikbar = new DevExpress.XtraNavBar.NavBarGroup();
             this.uzunlukOlcumleriBarItem = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarSeparatorItem7 = new DevExpress.XtraNavBar.NavBarSeparatorItem();
@@ -55,7 +68,9 @@
             this.capOlcumlariBarItem = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarSeparatorItem9 = new DevExpress.XtraNavBar.NavBarSeparatorItem();
             this.fonksiyonelBar = new DevExpress.XtraNavBar.NavBarGroup();
+            this.fonksiyonelOlcBarItem = new DevExpress.XtraNavBar.NavBarItem();
             this.fizyoterapiBar = new DevExpress.XtraNavBar.NavBarGroup();
+            this.fizyoterapiBarItem = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarGroup1 = new DevExpress.XtraNavBar.NavBarGroup();
             this.sporcuTabPage = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
@@ -79,22 +94,10 @@
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
-            this.anaSayfaTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
-            this.buzDisiTabPage5 = new DevExpress.XtraTab.XtraTabPage();
-            this.oksijensizTabPage = new DevExpress.XtraTab.XtraTabPage();
-            this.oksijenliTabPage = new DevExpress.XtraTab.XtraTabPage();
-            this.buzDisiBarItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.fonksiyonelOlcBarItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.fizyoterapiBarItem = new DevExpress.XtraNavBar.NavBarItem();
-            this.kaleciBeceritestleriTabPage = new DevExpress.XtraTab.XtraTabPage();
-            this.sutHiziTestleriTabPage = new DevExpress.XtraTab.XtraTabPage();
-            this.uzunlukOlcümleriTabPage10 = new DevExpress.XtraTab.XtraTabPage();
-            this.cevreOlcumleriTabPage = new DevExpress.XtraTab.XtraTabPage();
-            this.capOlcümleriTabPage = new DevExpress.XtraTab.XtraTabPage();
-            this.fonksiyonelOlcumlerTabPage = new DevExpress.XtraTab.XtraTabPage();
-            this.fizyoterapiTabPage = new DevExpress.XtraTab.XtraTabPage();
+            this.kapatBtn = new DevExpress.XtraEditors.SimpleButton();
             this.testTabPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
+            this.xtraTabControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl2)).BeginInit();
             this.sporcuTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -102,8 +105,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sporcubilgiTabPage)).BeginInit();
             this.sporcubilgiTabPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
-            this.xtraTabControl2.SuspendLayout();
             this.SuspendLayout();
             // 
             // testTabPage
@@ -127,9 +128,144 @@
             this.testTabPage.Size = new System.Drawing.Size(1235, 541);
             this.testTabPage.Text = "Test Bilgileri";
             // 
+            // xtraTabControl2
+            // 
+            this.xtraTabControl2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.xtraTabControl2.Appearance.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.xtraTabControl2.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.xtraTabControl2.Appearance.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xtraTabControl2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.xtraTabControl2.Appearance.Options.UseBackColor = true;
+            this.xtraTabControl2.Appearance.Options.UseBorderColor = true;
+            this.xtraTabControl2.Appearance.Options.UseFont = true;
+            this.xtraTabControl2.Appearance.Options.UseForeColor = true;
+            this.xtraTabControl2.AppearancePage.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.xtraTabControl2.AppearancePage.Header.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold);
+            this.xtraTabControl2.AppearancePage.Header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.xtraTabControl2.AppearancePage.Header.Options.UseBackColor = true;
+            this.xtraTabControl2.AppearancePage.Header.Options.UseFont = true;
+            this.xtraTabControl2.AppearancePage.Header.Options.UseForeColor = true;
+            this.xtraTabControl2.AppearancePage.HeaderActive.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold);
+            this.xtraTabControl2.AppearancePage.HeaderActive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.xtraTabControl2.AppearancePage.HeaderActive.Options.UseFont = true;
+            this.xtraTabControl2.AppearancePage.HeaderActive.Options.UseForeColor = true;
+            this.xtraTabControl2.AppearancePage.HeaderDisabled.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold);
+            this.xtraTabControl2.AppearancePage.HeaderDisabled.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.xtraTabControl2.AppearancePage.HeaderDisabled.Options.UseFont = true;
+            this.xtraTabControl2.AppearancePage.HeaderDisabled.Options.UseForeColor = true;
+            this.xtraTabControl2.AppearancePage.HeaderHotTracked.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.xtraTabControl2.AppearancePage.HeaderHotTracked.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold);
+            this.xtraTabControl2.AppearancePage.HeaderHotTracked.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
+            this.xtraTabControl2.AppearancePage.HeaderHotTracked.Options.UseBackColor = true;
+            this.xtraTabControl2.AppearancePage.HeaderHotTracked.Options.UseFont = true;
+            this.xtraTabControl2.AppearancePage.HeaderHotTracked.Options.UseForeColor = true;
+            this.xtraTabControl2.CustomHeaderButtons.AddRange(new DevExpress.XtraTab.Buttons.CustomHeaderButton[] {
+            new DevExpress.XtraTab.Buttons.CustomHeaderButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Delete)});
+            this.xtraTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraTabControl2.HeaderOrientation = DevExpress.XtraTab.TabOrientation.Horizontal;
+            this.xtraTabControl2.Location = new System.Drawing.Point(266, 0);
+            this.xtraTabControl2.Name = "xtraTabControl2";
+            this.xtraTabControl2.SelectedTabPage = this.anaSayfaTabPage2;
+            this.xtraTabControl2.Size = new System.Drawing.Size(969, 541);
+            this.xtraTabControl2.TabIndex = 2;
+            this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.anaSayfaTabPage2,
+            this.buzDisiTabPage,
+            this.oksijensizTabPage,
+            this.oksijenliTabPage,
+            this.kaleciBeceritestleriTabPage,
+            this.sutHiziTestleriTabPage,
+            this.uzunlukOlcümleriTabPage,
+            this.cevreOlcumleriTabPage,
+            this.capOlcümleriTabPage,
+            this.fonksiyonelOlcumlerTabPage,
+            this.fizyoterapiTabPage});
+            this.xtraTabControl2.CustomHeaderButtonClick += new DevExpress.XtraTab.ViewInfo.CustomHeaderButtonEventHandler(this.xtraTabControl2_CustomHeaderButtonClick);
+            // 
+            // anaSayfaTabPage2
+            // 
+            this.anaSayfaTabPage2.Appearance.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.anaSayfaTabPage2.Appearance.Header.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.anaSayfaTabPage2.Appearance.Header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.anaSayfaTabPage2.Appearance.Header.Options.UseBackColor = true;
+            this.anaSayfaTabPage2.Appearance.Header.Options.UseFont = true;
+            this.anaSayfaTabPage2.Appearance.Header.Options.UseForeColor = true;
+            this.anaSayfaTabPage2.Appearance.HeaderActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.anaSayfaTabPage2.Appearance.HeaderActive.Options.UseBackColor = true;
+            this.anaSayfaTabPage2.Appearance.HeaderDisabled.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.anaSayfaTabPage2.Appearance.HeaderDisabled.Options.UseBackColor = true;
+            this.anaSayfaTabPage2.Appearance.HeaderHotTracked.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.anaSayfaTabPage2.Appearance.HeaderHotTracked.Options.UseBackColor = true;
+            this.anaSayfaTabPage2.Appearance.PageClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.anaSayfaTabPage2.Appearance.PageClient.Options.UseBackColor = true;
+            this.anaSayfaTabPage2.ImageOptions.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
+            this.anaSayfaTabPage2.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.next;
+            this.anaSayfaTabPage2.Name = "anaSayfaTabPage2";
+            this.anaSayfaTabPage2.Size = new System.Drawing.Size(967, 497);
+            // 
+            // buzDisiTabPage
+            // 
+            this.buzDisiTabPage.Name = "buzDisiTabPage";
+            this.buzDisiTabPage.Size = new System.Drawing.Size(967, 497);
+            this.buzDisiTabPage.Text = "Buz Dışı Test";
+            // 
+            // oksijensizTabPage
+            // 
+            this.oksijensizTabPage.Name = "oksijensizTabPage";
+            this.oksijensizTabPage.Size = new System.Drawing.Size(967, 497);
+            this.oksijensizTabPage.Text = "Anaerobik / Oksijensiz";
+            // 
+            // oksijenliTabPage
+            // 
+            this.oksijenliTabPage.Name = "oksijenliTabPage";
+            this.oksijenliTabPage.Size = new System.Drawing.Size(967, 497);
+            this.oksijenliTabPage.Text = "Aerobik / Oksijenli";
+            // 
+            // kaleciBeceritestleriTabPage
+            // 
+            this.kaleciBeceritestleriTabPage.Name = "kaleciBeceritestleriTabPage";
+            this.kaleciBeceritestleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.kaleciBeceritestleriTabPage.Text = "Kaleci Beceri Testleri";
+            // 
+            // sutHiziTestleriTabPage
+            // 
+            this.sutHiziTestleriTabPage.Name = "sutHiziTestleriTabPage";
+            this.sutHiziTestleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.sutHiziTestleriTabPage.Text = "Şut Hızı Testleri";
+            // 
+            // uzunlukOlcümleriTabPage
+            // 
+            this.uzunlukOlcümleriTabPage.Name = "uzunlukOlcümleriTabPage";
+            this.uzunlukOlcümleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.uzunlukOlcümleriTabPage.Text = "Uzunluk Ölçümleri";
+            // 
+            // cevreOlcumleriTabPage
+            // 
+            this.cevreOlcumleriTabPage.Name = "cevreOlcumleriTabPage";
+            this.cevreOlcumleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.cevreOlcumleriTabPage.Text = "Çevre Ölçümleri";
+            // 
+            // capOlcümleriTabPage
+            // 
+            this.capOlcümleriTabPage.Name = "capOlcümleriTabPage";
+            this.capOlcümleriTabPage.Size = new System.Drawing.Size(967, 497);
+            this.capOlcümleriTabPage.Text = "Çap Ölçümleri";
+            // 
+            // fonksiyonelOlcumlerTabPage
+            // 
+            this.fonksiyonelOlcumlerTabPage.Name = "fonksiyonelOlcumlerTabPage";
+            this.fonksiyonelOlcumlerTabPage.Size = new System.Drawing.Size(967, 497);
+            this.fonksiyonelOlcumlerTabPage.Text = "Fonksiyonel Ölçümler";
+            // 
+            // fizyoterapiTabPage
+            // 
+            this.fizyoterapiTabPage.Name = "fizyoterapiTabPage";
+            this.fizyoterapiTabPage.Size = new System.Drawing.Size(967, 497);
+            this.fizyoterapiTabPage.Text = "Fizyoterapi";
+            // 
             // navBarControl2
             // 
-            this.navBarControl2.ActiveGroup = this.antropometrikbar;
+            this.navBarControl2.ActiveGroup = this.buzDisiBar;
             this.navBarControl2.Appearance.GroupHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.navBarControl2.Appearance.GroupHeader.Options.UseFont = true;
             this.navBarControl2.Appearance.GroupHeader.Options.UseTextOptions = true;
@@ -212,6 +348,21 @@
             this.navBarControl2.Text = "navBarControl2";
             this.navBarControl2.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinNavigationPaneViewInfoRegistrator("Metropolis Dark");
             // 
+            // buzDisiBar
+            // 
+            this.buzDisiBar.Caption = "Buz Dışı Test ";
+            this.buzDisiBar.Expanded = true;
+            this.buzDisiBar.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.charttype_scatterline;
+            this.buzDisiBar.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
+            new DevExpress.XtraNavBar.NavBarItemLink(this.buzDisiBarItem)});
+            this.buzDisiBar.Name = "buzDisiBar";
+            // 
+            // buzDisiBarItem
+            // 
+            this.buzDisiBarItem.Caption = "Buz Dışı Test";
+            this.buzDisiBarItem.Name = "buzDisiBarItem";
+            this.buzDisiBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.buzDisiBarItem_LinkClicked);
+            // 
             // buzIciBar
             // 
             this.buzIciBar.Caption = "Buz İçi Test ";
@@ -230,6 +381,7 @@
             // 
             this.oksijensizBarItem.Caption = "Anaerobik / Oksijensiz";
             this.oksijensizBarItem.Name = "oksijensizBarItem";
+            this.oksijensizBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.oksijensizBarItem_LinkClicked);
             // 
             // navBarSeparatorItem4
             // 
@@ -242,6 +394,7 @@
             // 
             this.oksijenliBarItem.Caption = "Aerobik / Oksijenli";
             this.oksijenliBarItem.Name = "oksijenliBarItem";
+            this.oksijenliBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.oksijenliBarItem_LinkClicked);
             // 
             // navBarSeparatorItem5
             // 
@@ -254,6 +407,7 @@
             // 
             this.kaleciBeceriTestleriBarItem.Caption = "Kaleci Beceri Testleri";
             this.kaleciBeceriTestleriBarItem.Name = "kaleciBeceriTestleriBarItem";
+            this.kaleciBeceriTestleriBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.kaleciBeceriTestleriBarItem_LinkClicked);
             // 
             // navBarSeparatorItem6
             // 
@@ -266,19 +420,11 @@
             // 
             this.sutHiziTestleriBarItem.Caption = "Şut Hızı Testleri";
             this.sutHiziTestleriBarItem.Name = "sutHiziTestleriBarItem";
-            // 
-            // buzDisiBar
-            // 
-            this.buzDisiBar.Caption = "Buz Dışı Test ";
-            this.buzDisiBar.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.charttype_scatterline;
-            this.buzDisiBar.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
-            new DevExpress.XtraNavBar.NavBarItemLink(this.buzDisiBarItem)});
-            this.buzDisiBar.Name = "buzDisiBar";
+            this.sutHiziTestleriBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.sutHiziTestleriBarItem_LinkClicked);
             // 
             // antropometrikbar
             // 
             this.antropometrikbar.Caption = "Antropometrik Ölçümler ";
-            this.antropometrikbar.Expanded = true;
             this.antropometrikbar.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.walking;
             this.antropometrikbar.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.uzunlukOlcumleriBarItem),
@@ -293,6 +439,7 @@
             // 
             this.uzunlukOlcumleriBarItem.Caption = "Uzunluk Ölçümleri";
             this.uzunlukOlcumleriBarItem.Name = "uzunlukOlcumleriBarItem";
+            this.uzunlukOlcumleriBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.uzunlukOlcumleriBarItem_LinkClicked);
             // 
             // navBarSeparatorItem7
             // 
@@ -305,6 +452,7 @@
             // 
             this.cevreOlcumleriBarItem.Caption = "Çevre Ölçümleri";
             this.cevreOlcumleriBarItem.Name = "cevreOlcumleriBarItem";
+            this.cevreOlcumleriBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.cevreOlcumleriBarItem_LinkClicked);
             // 
             // navBarSeparatorItem8
             // 
@@ -317,6 +465,7 @@
             // 
             this.capOlcumlariBarItem.Caption = "Çap Ölçümleri";
             this.capOlcumlariBarItem.Name = "capOlcumlariBarItem";
+            this.capOlcumlariBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.capOlcumlariBarItem_LinkClicked);
             // 
             // navBarSeparatorItem9
             // 
@@ -333,6 +482,12 @@
             new DevExpress.XtraNavBar.NavBarItemLink(this.fonksiyonelOlcBarItem)});
             this.fonksiyonelBar.Name = "fonksiyonelBar";
             // 
+            // fonksiyonelOlcBarItem
+            // 
+            this.fonksiyonelOlcBarItem.Caption = "Fonksiyonel Ölçümler";
+            this.fonksiyonelOlcBarItem.Name = "fonksiyonelOlcBarItem";
+            this.fonksiyonelOlcBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.fonksiyonelOlcBarItem_LinkClicked);
+            // 
             // fizyoterapiBar
             // 
             this.fizyoterapiBar.Caption = "Fizyoterapi ";
@@ -340,6 +495,12 @@
             this.fizyoterapiBar.ItemLinks.AddRange(new DevExpress.XtraNavBar.NavBarItemLink[] {
             new DevExpress.XtraNavBar.NavBarItemLink(this.fizyoterapiBarItem)});
             this.fizyoterapiBar.Name = "fizyoterapiBar";
+            // 
+            // fizyoterapiBarItem
+            // 
+            this.fizyoterapiBarItem.Caption = "Fizyoterapi";
+            this.fizyoterapiBarItem.Name = "fizyoterapiBarItem";
+            this.fizyoterapiBarItem.LinkClicked += new DevExpress.XtraNavBar.NavBarLinkEventHandler(this.fizyoterapiBarItem_LinkClicked);
             // 
             // navBarGroup1
             // 
@@ -444,9 +605,10 @@
             this.anaSayfaTabPage.Appearance.HeaderHotTracked.Options.UseBackColor = true;
             this.anaSayfaTabPage.Appearance.PageClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.anaSayfaTabPage.Appearance.PageClient.Options.UseBackColor = true;
+            this.anaSayfaTabPage.ImageOptions.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
+            this.anaSayfaTabPage.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.next;
             this.anaSayfaTabPage.Name = "anaSayfaTabPage";
-            this.anaSayfaTabPage.Size = new System.Drawing.Size(967, 516);
-            this.anaSayfaTabPage.Text = "Ana Sayfa";
+            this.anaSayfaTabPage.Size = new System.Drawing.Size(967, 497);
             // 
             // kisiselBilgilerTabPage
             // 
@@ -457,7 +619,7 @@
             this.kisiselBilgilerTabPage.Appearance.HeaderDisabled.BackColor = System.Drawing.Color.Lime;
             this.kisiselBilgilerTabPage.Appearance.HeaderDisabled.Options.UseBackColor = true;
             this.kisiselBilgilerTabPage.Name = "kisiselBilgilerTabPage";
-            this.kisiselBilgilerTabPage.Size = new System.Drawing.Size(967, 516);
+            this.kisiselBilgilerTabPage.Size = new System.Drawing.Size(967, 497);
             this.kisiselBilgilerTabPage.Text = "Kişisel Bilgiler";
             // 
             // AntropometikXtraTabPage
@@ -465,7 +627,7 @@
             this.AntropometikXtraTabPage.Appearance.HeaderActive.BackColor = System.Drawing.Color.Black;
             this.AntropometikXtraTabPage.Appearance.HeaderActive.Options.UseBackColor = true;
             this.AntropometikXtraTabPage.Name = "AntropometikXtraTabPage";
-            this.AntropometikXtraTabPage.Size = new System.Drawing.Size(967, 516);
+            this.AntropometikXtraTabPage.Size = new System.Drawing.Size(967, 497);
             this.AntropometikXtraTabPage.Text = "Antropometik Özellikler";
             // 
             // sporcuListesiXtraTabPage
@@ -473,16 +635,18 @@
             this.sporcuListesiXtraTabPage.Appearance.HeaderActive.BackColor = System.Drawing.Color.Black;
             this.sporcuListesiXtraTabPage.Appearance.HeaderActive.Options.UseBackColor = true;
             this.sporcuListesiXtraTabPage.Name = "sporcuListesiXtraTabPage";
-            this.sporcuListesiXtraTabPage.Size = new System.Drawing.Size(967, 516);
+            this.sporcuListesiXtraTabPage.Size = new System.Drawing.Size(967, 497);
             this.sporcuListesiXtraTabPage.Text = "Sporcu Listesi";
             // 
             // navBarControl1
             // 
             this.navBarControl1.ActiveGroup = this.menuBarGroup;
             this.navBarControl1.Appearance.GroupHeaderActive.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.navBarControl1.Appearance.GroupHeaderActive.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Question;
+            this.navBarControl1.Appearance.GroupHeaderActive.ForeColor = System.Drawing.Color.White;
             this.navBarControl1.Appearance.GroupHeaderActive.Options.UseFont = true;
             this.navBarControl1.Appearance.GroupHeaderActive.Options.UseForeColor = true;
+            this.navBarControl1.Appearance.GroupHeaderActive.Options.UseTextOptions = true;
+            this.navBarControl1.Appearance.GroupHeaderActive.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
             this.navBarControl1.Appearance.Item.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
             this.navBarControl1.Appearance.Item.Options.UseFont = true;
             this.navBarControl1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -513,7 +677,7 @@
             this.menuBarGroup.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.menuBarGroup.AppearanceBackground.BackColor = System.Drawing.SystemColors.HighlightText;
             this.menuBarGroup.AppearanceBackground.Options.UseBackColor = true;
-            this.menuBarGroup.Caption = "Menü";
+            this.menuBarGroup.Caption = "Menü ";
             this.menuBarGroup.Expanded = true;
             this.menuBarGroup.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.LargeIconsText;
             this.menuBarGroup.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.menu;
@@ -612,6 +776,9 @@
             // 
             // sporcubilgiTabPage
             // 
+            this.sporcubilgiTabPage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.sporcubilgiTabPage.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.sporcubilgiTabPage.Appearance.BorderColor = System.Drawing.Color.Black;
             this.sporcubilgiTabPage.Appearance.Options.UseBackColor = true;
@@ -667,7 +834,6 @@
             this.sporcubilgiTabPage.CustomHeaderButtons.AddRange(new DevExpress.XtraTab.Buttons.CustomHeaderButton[] {
             new DevExpress.XtraTab.Buttons.CustomHeaderButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Minus, "Min", -1, true, true, editorButtonImageOptions1, serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "", "min", null),
             new DevExpress.XtraTab.Buttons.CustomHeaderButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Delete, "", -1, true, true, editorButtonImageOptions2, serializableAppearanceObject5, "", "del", null)});
-            this.sporcubilgiTabPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sporcubilgiTabPage.HeaderOrientation = DevExpress.XtraTab.TabOrientation.Horizontal;
             this.sporcubilgiTabPage.Location = new System.Drawing.Point(0, 0);
             this.sporcubilgiTabPage.MultiLine = DevExpress.Utils.DefaultBoolean.False;
@@ -679,6 +845,8 @@
             this.sporcuTabPage,
             this.testTabPage});
             this.sporcubilgiTabPage.CustomHeaderButtonClick += new DevExpress.XtraTab.ViewInfo.CustomHeaderButtonEventHandler(this.sporcubilgiTabPage_CustomHeaderButtonClick);
+            this.sporcubilgiTabPage.MouseDown += new System.Windows.Forms.MouseEventHandler(this.sporcubilgiTabPage_MouseDown);
+            this.sporcubilgiTabPage.MouseMove += new System.Windows.Forms.MouseEventHandler(this.sporcubilgiTabPage_MouseMove);
             // 
             // navBarItem3
             // 
@@ -751,154 +919,14 @@
             this.xtraTabPage4.Name = "xtraTabPage4";
             this.xtraTabPage4.Size = new System.Drawing.Size(967, 516);
             // 
-            // anaSayfaTabPage2
+            // kapatBtn
             // 
-            this.anaSayfaTabPage2.Appearance.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.anaSayfaTabPage2.Appearance.Header.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.anaSayfaTabPage2.Appearance.Header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.anaSayfaTabPage2.Appearance.Header.Options.UseBackColor = true;
-            this.anaSayfaTabPage2.Appearance.Header.Options.UseFont = true;
-            this.anaSayfaTabPage2.Appearance.Header.Options.UseForeColor = true;
-            this.anaSayfaTabPage2.Appearance.HeaderActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.anaSayfaTabPage2.Appearance.HeaderActive.Options.UseBackColor = true;
-            this.anaSayfaTabPage2.Appearance.HeaderDisabled.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.anaSayfaTabPage2.Appearance.HeaderDisabled.Options.UseBackColor = true;
-            this.anaSayfaTabPage2.Appearance.HeaderHotTracked.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.anaSayfaTabPage2.Appearance.HeaderHotTracked.Options.UseBackColor = true;
-            this.anaSayfaTabPage2.Appearance.PageClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.anaSayfaTabPage2.Appearance.PageClient.Options.UseBackColor = true;
-            this.anaSayfaTabPage2.Name = "anaSayfaTabPage2";
-            this.anaSayfaTabPage2.Size = new System.Drawing.Size(967, 516);
-            this.anaSayfaTabPage2.Text = "Ana Sayfa";
-            // 
-            // xtraTabControl2
-            // 
-            this.xtraTabControl2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.xtraTabControl2.Appearance.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.xtraTabControl2.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.xtraTabControl2.Appearance.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xtraTabControl2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.xtraTabControl2.Appearance.Options.UseBackColor = true;
-            this.xtraTabControl2.Appearance.Options.UseBorderColor = true;
-            this.xtraTabControl2.Appearance.Options.UseFont = true;
-            this.xtraTabControl2.Appearance.Options.UseForeColor = true;
-            this.xtraTabControl2.AppearancePage.Header.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.xtraTabControl2.AppearancePage.Header.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold);
-            this.xtraTabControl2.AppearancePage.Header.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.xtraTabControl2.AppearancePage.Header.Options.UseBackColor = true;
-            this.xtraTabControl2.AppearancePage.Header.Options.UseFont = true;
-            this.xtraTabControl2.AppearancePage.Header.Options.UseForeColor = true;
-            this.xtraTabControl2.AppearancePage.HeaderActive.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold);
-            this.xtraTabControl2.AppearancePage.HeaderActive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.xtraTabControl2.AppearancePage.HeaderActive.Options.UseFont = true;
-            this.xtraTabControl2.AppearancePage.HeaderActive.Options.UseForeColor = true;
-            this.xtraTabControl2.AppearancePage.HeaderDisabled.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold);
-            this.xtraTabControl2.AppearancePage.HeaderDisabled.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.xtraTabControl2.AppearancePage.HeaderDisabled.Options.UseFont = true;
-            this.xtraTabControl2.AppearancePage.HeaderDisabled.Options.UseForeColor = true;
-            this.xtraTabControl2.AppearancePage.HeaderHotTracked.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.xtraTabControl2.AppearancePage.HeaderHotTracked.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold);
-            this.xtraTabControl2.AppearancePage.HeaderHotTracked.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.ControlText;
-            this.xtraTabControl2.AppearancePage.HeaderHotTracked.Options.UseBackColor = true;
-            this.xtraTabControl2.AppearancePage.HeaderHotTracked.Options.UseFont = true;
-            this.xtraTabControl2.AppearancePage.HeaderHotTracked.Options.UseForeColor = true;
-            this.xtraTabControl2.CustomHeaderButtons.AddRange(new DevExpress.XtraTab.Buttons.CustomHeaderButton[] {
-            new DevExpress.XtraTab.Buttons.CustomHeaderButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Delete)});
-            this.xtraTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xtraTabControl2.HeaderOrientation = DevExpress.XtraTab.TabOrientation.Horizontal;
-            this.xtraTabControl2.Location = new System.Drawing.Point(266, 0);
-            this.xtraTabControl2.Name = "xtraTabControl2";
-            this.xtraTabControl2.SelectedTabPage = this.anaSayfaTabPage2;
-            this.xtraTabControl2.Size = new System.Drawing.Size(969, 541);
-            this.xtraTabControl2.TabIndex = 2;
-            this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
-            this.anaSayfaTabPage2,
-            this.buzDisiTabPage5,
-            this.oksijensizTabPage,
-            this.oksijenliTabPage,
-            this.kaleciBeceritestleriTabPage,
-            this.sutHiziTestleriTabPage,
-            this.uzunlukOlcümleriTabPage10,
-            this.cevreOlcumleriTabPage,
-            this.capOlcümleriTabPage,
-            this.fonksiyonelOlcumlerTabPage,
-            this.fizyoterapiTabPage});
-            this.xtraTabControl2.CustomHeaderButtonClick += new DevExpress.XtraTab.ViewInfo.CustomHeaderButtonEventHandler(this.xtraTabControl2_CustomHeaderButtonClick);
-            // 
-            // buzDisiTabPage5
-            // 
-            this.buzDisiTabPage5.Name = "buzDisiTabPage5";
-            this.buzDisiTabPage5.Size = new System.Drawing.Size(967, 516);
-            this.buzDisiTabPage5.Text = "Buz Dışı Test";
-            // 
-            // oksijensizTabPage
-            // 
-            this.oksijensizTabPage.Name = "oksijensizTabPage";
-            this.oksijensizTabPage.Size = new System.Drawing.Size(967, 516);
-            this.oksijensizTabPage.Text = "Anaerobik / Oksijensiz";
-            // 
-            // oksijenliTabPage
-            // 
-            this.oksijenliTabPage.Name = "oksijenliTabPage";
-            this.oksijenliTabPage.Size = new System.Drawing.Size(967, 516);
-            this.oksijenliTabPage.Text = "Aerobik / Oksijenli";
-            // 
-            // buzDisiBarItem
-            // 
-            this.buzDisiBarItem.Caption = "Buz Dışı Test";
-            this.buzDisiBarItem.Name = "buzDisiBarItem";
-            // 
-            // fonksiyonelOlcBarItem
-            // 
-            this.fonksiyonelOlcBarItem.Caption = "Fonksiyonel Ölçümler";
-            this.fonksiyonelOlcBarItem.Name = "fonksiyonelOlcBarItem";
-            // 
-            // fizyoterapiBarItem
-            // 
-            this.fizyoterapiBarItem.Caption = "Fizyoterapi";
-            this.fizyoterapiBarItem.Name = "fizyoterapiBarItem";
-            // 
-            // kaleciBeceritestleriTabPage
-            // 
-            this.kaleciBeceritestleriTabPage.Name = "kaleciBeceritestleriTabPage";
-            this.kaleciBeceritestleriTabPage.Size = new System.Drawing.Size(967, 516);
-            this.kaleciBeceritestleriTabPage.Text = "Kaleci Beceri Testleri";
-            // 
-            // sutHiziTestleriTabPage
-            // 
-            this.sutHiziTestleriTabPage.Name = "sutHiziTestleriTabPage";
-            this.sutHiziTestleriTabPage.Size = new System.Drawing.Size(967, 516);
-            this.sutHiziTestleriTabPage.Text = "Şut Hızı Testleri";
-            // 
-            // uzunlukOlcümleriTabPage10
-            // 
-            this.uzunlukOlcümleriTabPage10.Name = "uzunlukOlcümleriTabPage10";
-            this.uzunlukOlcümleriTabPage10.Size = new System.Drawing.Size(967, 516);
-            this.uzunlukOlcümleriTabPage10.Text = "Uzunluk Ölçümleri";
-            // 
-            // cevreOlcumleriTabPage
-            // 
-            this.cevreOlcumleriTabPage.Name = "cevreOlcumleriTabPage";
-            this.cevreOlcumleriTabPage.Size = new System.Drawing.Size(967, 516);
-            this.cevreOlcumleriTabPage.Text = "Çevre Ölçümleri";
-            // 
-            // capOlcümleriTabPage
-            // 
-            this.capOlcümleriTabPage.Name = "capOlcümleriTabPage";
-            this.capOlcümleriTabPage.Size = new System.Drawing.Size(967, 516);
-            this.capOlcümleriTabPage.Text = "Çap Ölçümleri";
-            // 
-            // fonksiyonelOlcumlerTabPage
-            // 
-            this.fonksiyonelOlcumlerTabPage.Name = "fonksiyonelOlcumlerTabPage";
-            this.fonksiyonelOlcumlerTabPage.Size = new System.Drawing.Size(967, 516);
-            this.fonksiyonelOlcumlerTabPage.Text = "Fonksiyonel Ölçümler";
-            // 
-            // fizyoterapiTabPage
-            // 
-            this.fizyoterapiTabPage.Name = "fizyoterapiTabPage";
-            this.fizyoterapiTabPage.Size = new System.Drawing.Size(967, 516);
-            this.fizyoterapiTabPage.Text = "Fizyoterapi";
+            this.kapatBtn.ImageOptions.SvgImage = global::TestingPrograms.Properties.Resources.clearheaderandfooter;
+            this.kapatBtn.Location = new System.Drawing.Point(1131, 13);
+            this.kapatBtn.Name = "kapatBtn";
+            this.kapatBtn.Size = new System.Drawing.Size(75, 23);
+            this.kapatBtn.TabIndex = 2;
+            this.kapatBtn.Text = "cfbdvsdvsdvdsv";
             // 
             // testAnaForm
             // 
@@ -907,6 +935,8 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1237, 585);
             this.Controls.Add(this.sporcubilgiTabPage);
             this.Font = new System.Drawing.Font("Sitka Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -914,10 +944,14 @@
             this.IconOptions.SvgImage = global::TestingPrograms.Properties.Resources.charttype_bar3dstacked;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "testAnaForm";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "byNed";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.SizeChanged += new System.EventHandler(this.testAnaForm_Load);
             this.testTabPage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).EndInit();
+            this.xtraTabControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl2)).EndInit();
             this.sporcuTabPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
@@ -925,8 +959,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sporcubilgiTabPage)).EndInit();
             this.sporcubilgiTabPage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).EndInit();
-            this.xtraTabControl2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -978,12 +1010,12 @@
         private DevExpress.XtraNavBar.NavBarSeparatorItem navBarSeparatorItem9;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl2;
         private DevExpress.XtraTab.XtraTabPage anaSayfaTabPage2;
-        private DevExpress.XtraTab.XtraTabPage buzDisiTabPage5;
+        private DevExpress.XtraTab.XtraTabPage buzDisiTabPage;
         private DevExpress.XtraTab.XtraTabPage oksijensizTabPage;
         private DevExpress.XtraTab.XtraTabPage oksijenliTabPage;
         private DevExpress.XtraTab.XtraTabPage kaleciBeceritestleriTabPage;
         private DevExpress.XtraTab.XtraTabPage sutHiziTestleriTabPage;
-        private DevExpress.XtraTab.XtraTabPage uzunlukOlcümleriTabPage10;
+        private DevExpress.XtraTab.XtraTabPage uzunlukOlcümleriTabPage;
         private DevExpress.XtraTab.XtraTabPage cevreOlcumleriTabPage;
         private DevExpress.XtraTab.XtraTabPage capOlcümleriTabPage;
         private DevExpress.XtraTab.XtraTabPage fonksiyonelOlcumlerTabPage;
@@ -991,6 +1023,7 @@
         private DevExpress.XtraNavBar.NavBarItem buzDisiBarItem;
         private DevExpress.XtraNavBar.NavBarItem fonksiyonelOlcBarItem;
         private DevExpress.XtraNavBar.NavBarItem fizyoterapiBarItem;
+        private DevExpress.XtraEditors.SimpleButton kapatBtn;
     }
 }
 
