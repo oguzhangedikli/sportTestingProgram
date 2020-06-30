@@ -54,12 +54,20 @@
             this.navBarItem3 = new DevExpress.XtraNavBar.NavBarItem();
             this.navBarSeparatorItem3 = new DevExpress.XtraNavBar.NavBarSeparatorItem();
             this.navBarGroup2 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarControl2 = new DevExpress.XtraNavBar.NavBarControl();
+            this.navBarGroup3 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroup4 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroup5 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroup6 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.navBarGroup7 = new DevExpress.XtraNavBar.NavBarGroup();
+            this.testTabPage.SuspendLayout();
             this.sporcuTabPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sporcubilgiTabPage)).BeginInit();
             this.sporcubilgiTabPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.navBarControl2)).BeginInit();
             this.SuspendLayout();
             // 
             // testTabPage
@@ -68,9 +76,10 @@
             this.testTabPage.Appearance.PageClient.ForeColor = System.Drawing.Color.Transparent;
             this.testTabPage.Appearance.PageClient.Options.UseBackColor = true;
             this.testTabPage.Appearance.PageClient.Options.UseForeColor = true;
+            this.testTabPage.Controls.Add(this.navBarControl2);
             this.testTabPage.ImageOptions.Image = global::TestingPrograms.Properties.Resources.forcetesting_32x32;
             this.testTabPage.Name = "testTabPage";
-            this.testTabPage.Size = new System.Drawing.Size(1245, 515);
+            this.testTabPage.Size = new System.Drawing.Size(1245, 568);
             this.testTabPage.Text = "Test Bilgileri";
             // 
             // navBarGroup1
@@ -344,7 +353,7 @@
             this.sporcubilgiTabPage.MultiLine = DevExpress.Utils.DefaultBoolean.True;
             this.sporcubilgiTabPage.Name = "sporcubilgiTabPage";
             this.sporcubilgiTabPage.SelectedTabPage = this.sporcuTabPage;
-            this.sporcubilgiTabPage.Size = new System.Drawing.Size(1247, 559);
+            this.sporcubilgiTabPage.Size = new System.Drawing.Size(1247, 612);
             this.sporcubilgiTabPage.TabIndex = 0;
             this.sporcubilgiTabPage.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.sporcuTabPage,
@@ -382,6 +391,100 @@
             this.navBarGroup2.Caption = "navBarGroup2";
             this.navBarGroup2.Name = "navBarGroup2";
             // 
+            // navBarControl2
+            // 
+            this.navBarControl2.ActiveGroup = this.navBarGroup3;
+            this.navBarControl2.Appearance.GroupHeader.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.GroupHeader.Options.UseFont = true;
+            this.navBarControl2.Appearance.GroupHeader.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.GroupHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Appearance.GroupHeaderActive.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.GroupHeaderActive.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Question;
+            this.navBarControl2.Appearance.GroupHeaderActive.Options.UseFont = true;
+            this.navBarControl2.Appearance.GroupHeaderActive.Options.UseForeColor = true;
+            this.navBarControl2.Appearance.GroupHeaderActive.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.GroupHeaderActive.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Appearance.GroupHeaderHotTracked.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.GroupHeaderHotTracked.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Critical;
+            this.navBarControl2.Appearance.GroupHeaderHotTracked.Options.UseFont = true;
+            this.navBarControl2.Appearance.GroupHeaderHotTracked.Options.UseForeColor = true;
+            this.navBarControl2.Appearance.GroupHeaderHotTracked.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.GroupHeaderHotTracked.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Appearance.GroupHeaderPressed.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.GroupHeaderPressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Question;
+            this.navBarControl2.Appearance.GroupHeaderPressed.Options.UseFont = true;
+            this.navBarControl2.Appearance.GroupHeaderPressed.Options.UseForeColor = true;
+            this.navBarControl2.Appearance.GroupHeaderPressed.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.GroupHeaderPressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Appearance.Item.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.Item.ForeColor = System.Drawing.Color.White;
+            this.navBarControl2.Appearance.Item.Options.UseFont = true;
+            this.navBarControl2.Appearance.Item.Options.UseForeColor = true;
+            this.navBarControl2.Appearance.Item.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.Item.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Appearance.ItemActive.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.ItemActive.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.navBarControl2.Appearance.ItemActive.Options.UseFont = true;
+            this.navBarControl2.Appearance.ItemActive.Options.UseForeColor = true;
+            this.navBarControl2.Appearance.ItemActive.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.ItemActive.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Appearance.ItemDisabled.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.ItemDisabled.Options.UseFont = true;
+            this.navBarControl2.Appearance.ItemDisabled.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.ItemDisabled.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Appearance.ItemHotTracked.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.ItemHotTracked.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Critical;
+            this.navBarControl2.Appearance.ItemHotTracked.Options.UseFont = true;
+            this.navBarControl2.Appearance.ItemHotTracked.Options.UseForeColor = true;
+            this.navBarControl2.Appearance.ItemHotTracked.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.ItemHotTracked.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Appearance.ItemPressed.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.navBarControl2.Appearance.ItemPressed.ForeColor = DevExpress.LookAndFeel.DXSkinColors.ForeColors.Information;
+            this.navBarControl2.Appearance.ItemPressed.Options.UseFont = true;
+            this.navBarControl2.Appearance.ItemPressed.Options.UseForeColor = true;
+            this.navBarControl2.Appearance.ItemPressed.Options.UseTextOptions = true;
+            this.navBarControl2.Appearance.ItemPressed.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.navBarControl2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.navBarControl2.Groups.AddRange(new DevExpress.XtraNavBar.NavBarGroup[] {
+            this.navBarGroup3,
+            this.navBarGroup4,
+            this.navBarGroup5,
+            this.navBarGroup6,
+            this.navBarGroup7});
+            this.navBarControl2.Location = new System.Drawing.Point(0, 0);
+            this.navBarControl2.Name = "navBarControl2";
+            this.navBarControl2.OptionsNavPane.ExpandedWidth = 266;
+            this.navBarControl2.Size = new System.Drawing.Size(266, 568);
+            this.navBarControl2.TabIndex = 1;
+            this.navBarControl2.Text = "navBarControl2";
+            this.navBarControl2.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinNavigationPaneViewInfoRegistrator("Metropolis Dark");
+            // 
+            // navBarGroup3
+            // 
+            this.navBarGroup3.Caption = "navBarGroup3";
+            this.navBarGroup3.Expanded = true;
+            this.navBarGroup3.Name = "navBarGroup3";
+            // 
+            // navBarGroup4
+            // 
+            this.navBarGroup4.Caption = "navBarGroup4";
+            this.navBarGroup4.Name = "navBarGroup4";
+            // 
+            // navBarGroup5
+            // 
+            this.navBarGroup5.Caption = "navBarGroup5";
+            this.navBarGroup5.Name = "navBarGroup5";
+            // 
+            // navBarGroup6
+            // 
+            this.navBarGroup6.Caption = "navBarGroup6";
+            this.navBarGroup6.Name = "navBarGroup6";
+            // 
+            // navBarGroup7
+            // 
+            this.navBarGroup7.Caption = "navBarGroup7";
+            this.navBarGroup7.Name = "navBarGroup7";
+            // 
             // testAnaForm
             // 
             this.Appearance.BackColor = System.Drawing.Color.DimGray;
@@ -389,7 +492,7 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1247, 559);
+            this.ClientSize = new System.Drawing.Size(1247, 612);
             this.Controls.Add(this.sporcubilgiTabPage);
             this.Font = new System.Drawing.Font("Sitka Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -398,12 +501,14 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "byNed";
             this.Load += new System.EventHandler(this.testAnaForm_Load);
+            this.testTabPage.ResumeLayout(false);
             this.sporcuTabPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.navBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sporcubilgiTabPage)).EndInit();
             this.sporcubilgiTabPage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.navBarControl2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -429,6 +534,12 @@
         private DevExpress.XtraNavBar.NavBarItem navBarItem3;
         private DevExpress.XtraNavBar.NavBarSeparatorItem navBarSeparatorItem3;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup2;
+        private DevExpress.XtraNavBar.NavBarControl navBarControl2;
+        private DevExpress.XtraNavBar.NavBarGroup navBarGroup3;
+        private DevExpress.XtraNavBar.NavBarGroup navBarGroup4;
+        private DevExpress.XtraNavBar.NavBarGroup navBarGroup5;
+        private DevExpress.XtraNavBar.NavBarGroup navBarGroup6;
+        private DevExpress.XtraNavBar.NavBarGroup navBarGroup7;
     }
 }
 
